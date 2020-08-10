@@ -20,4 +20,5 @@ public class DeepCloneDemo {
 		QiTianDaSheng n = q.shallowClone(q);
 		System.out.println("浅克隆： " + (q.jinGuBang == n.jinGuBang));
 	}
+
 }
