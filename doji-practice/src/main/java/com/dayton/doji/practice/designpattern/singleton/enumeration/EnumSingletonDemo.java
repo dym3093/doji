@@ -9,8 +9,11 @@ import java.lang.reflect.InvocationTargetException;
  * @since 2020-08-08 21:48
  */
 public class EnumSingletonDemo {
+	public static final String KEY = "key";
+	public static final int ZERO = 0;
 
 	public static void main(String[] args) {
+
 		EnumSingleton.UNIQUE_INSTANCE.singletonOperation();
 		seriableDestory();
 //		destroySingleton();
