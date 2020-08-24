@@ -8,7 +8,7 @@ public class StrategyDemoV1 {
 
 	public static void main(String[] args) {
 		PromotionActivity activity618 = new PromotionActivity(new
-				CuponStrategy());
+				CouponStrategy());
 		PromotionActivity activity1111 = new PromotionActivity(new
 				CashbackStrategy());
 		activity618.execute();
