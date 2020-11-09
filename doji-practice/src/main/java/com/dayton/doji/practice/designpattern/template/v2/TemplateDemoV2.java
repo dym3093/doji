@@ -13,4 +13,5 @@ public class TemplateDemoV2 {
 		List<?> result = memberDao.selectAll();
 		System.out.println(result);
 	}
+
 }
