@@ -3,6 +3,7 @@ package com.dayton.doji.practice.multithread.chap06;
 import com.dayton.doji.practice.multithread.chap02.t6.Task;
 
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicIntegerArray;
 
 /**
  * @author Martin Deng
